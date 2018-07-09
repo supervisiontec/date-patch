@@ -36,7 +36,7 @@ If .State = 1 Then .Close
 .Open "select * from Supervision", con, adOpenKeyset, adLockOptimistic
 If .RecordCount Then
     .MoveFirst
-    !CD = "2018/09/25"
+    !CD = "2018/10/25"
     !CPW = "19800103"
     .Update
 End If
